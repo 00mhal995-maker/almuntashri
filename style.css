@@ -8,11 +8,15 @@ Version:	1.0
 ========================================*/
 
 /*===============================
-	Header CSS ff
+	Header CSS 
 =================================*/
 .header {
 	background-color: #fff;
 }
+.hidden-text {
+  visibility: hidden; /* النص يختفي لكن المساحة تبقى */
+}
+
 /* Header Inner */
 .header .header-inner {
 	background-image: url('images/bg-pattern1.png');
